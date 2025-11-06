@@ -1,0 +1,18 @@
+# 1. Clone your current repository
+git clone https://github.com/culturelanglearn/sunlab.io
+cd sunlab.io
+
+# 2. Check what branch you're on (usually 'main' or 'master')
+git branch
+
+# 3. Remove connection to the old fork
+git remote remove origin
+
+# 4. Connect to your NEW repository
+git remote add origin https://github.com/culturelanglearn/sunlab-website
+
+# 5. Push all code and branches to the new repo
+git push -u origin main
+
+# If you have other branches, push them too:
+git push --all origin
